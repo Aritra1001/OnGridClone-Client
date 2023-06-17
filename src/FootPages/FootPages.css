@@ -58,3 +58,43 @@
     text-decoration: none;
     color:#34d0d0;
  }
+
+ .form-container{
+  background-color:#f1f1f1;
+  padding: 20px 20px;
+ }
+
+ .contact-btn{
+  background-color: #34d0d0;
+  color:#fff;
+  width: 7em;
+ }
+.address-container{
+  padding-left: 35px;
+}
+
+.contact-details a{
+  text-decoration: none;
+  color:#34d0d0;
+}
+
+.mapbox{
+  margin-right: 30px;
+  padding: 20px 20px;
+  width: 400px;
+  height: 320px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 986px){
+  .mapbox{
+    width: 300px;
+    height: 250px;
+  }
+} 
+
+@media only screen and (min-width: 200px) and (max-width: 431px){
+  .mapbox{
+      width: 250px;
+      height: 250px;
+  }
+}

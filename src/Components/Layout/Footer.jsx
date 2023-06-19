@@ -66,17 +66,17 @@ const Footer = () => {
             </div>
             <div className="col-md-6 col-sm-12 col-xs-12">
                 <h5>Company</h5>
-                <Link className="company-items" to="/aboutUs">About US</Link>
+                <Link className="company-items" smooth to="/aboutUs">About US</Link>
                 <br/>
-                <Link className="company-items" to="/career">Careers</Link>
+                <Link className="company-items" smooth to="/career">Careers</Link>
                 <br/>
-                <Link className="company-items" to="/contact">Contact US</Link>
+                <Link className="company-items" smooth to="/contact">Contact US</Link>
                 <br/>
-                <Link className="company-items" to="/blog">Our Blog</Link>
+                <Link className="company-items" smooth to="/blog">Our Blog</Link>
                 <br/>
-                <Link className="company-items" to="/tnc">Terms and Conditions</Link>
+                <Link className="company-items" smooth to="/tnc">Terms and Conditions</Link>
                 <br/>
-                <Link className="company-items" to="/privacyPolicy">Privacy Policy</Link>
+                <Link className="company-items" smooth to="/privacyPolicy">Privacy Policy</Link>
             </div>
           </div>
           <hr/>

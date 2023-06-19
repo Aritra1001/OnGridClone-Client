@@ -5,12 +5,14 @@ import "./FootPages.css";
 const AboutUs = () => {
   return (
     <Layout>
-      <section
-        className="about-header" 
-        style={{ boxShadow: "inset 0 0 0 1000px rgba(0, 0, 0, 0.5)" }}
-      >
-        <h1>About US!</h1>
-      </section>
+      <div id="aboutUs">
+        <section
+          className="about-header"
+          style={{ boxShadow: "inset 0 0 0 1000px rgba(0, 0, 0, 0.5)" }}
+        >
+          <h1>About US!</h1>
+        </section>
+      </div>
       <section>
         <div
           className="container  about-container"
@@ -49,8 +51,8 @@ const AboutUs = () => {
                 introduce new solutions such as{" "}
                 <a href="https://elockr.io/#/" target="_blank" rel="noreferrer">
                   eLockr
-                </a>
-                {" "}and <b>Gridlines</b> for making trust establishment and
+                </a>{" "}
+                and <b>Gridlines</b> for making trust establishment and
                 verifications faster, cheaper, and more accurate.
               </p>
             </div>
@@ -75,10 +77,9 @@ const AboutUs = () => {
                 problem in a manner that is elegant, and easy to adopt for our
                 clients. We are a team of 200+ full-time employees and 1000+
                 contractual field verifiers. We are constantly hiring, and if
-                you wish to be a part of our team, give us a shout at {" "}
+                you wish to be a part of our team, give us a shout at{" "}
                 <a href="mailto:careers@ongrid.in">careers@ongrid.in</a>
               </p>
-              
             </div>
           </div>
         </div>
@@ -93,9 +94,9 @@ const AboutUs = () => {
               <h3>Our core values</h3>
               <p>
                 1. Be the gatekeepers to authenticity, and protect the truth.
-                <br/>
+                <br />
                 2. Creating a fair working world, devoid of fraud.
-                <br/>
+                <br />
                 3. Empower the less privileged to achieve upward mobility.
               </p>
             </div>

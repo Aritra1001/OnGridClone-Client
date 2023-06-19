@@ -43,6 +43,11 @@
   height: 87vh;
 } */
 
+#career-img{
+  background-image: url(https://ongrid.in/images/home/contact-header.png);
+  background-size: cover;
+}
+
  .send-cv{
     background: #3b3b3b;
     text-align: center;
@@ -59,16 +64,18 @@
     color:#34d0d0;
  }
 
- .form-container{
-  background-color:#f1f1f1;
-  padding: 20px 20px;
- }
-
  .contact-btn{
   background-color: #34d0d0;
   color:#fff;
   width: 7em;
  }
+
+ .form-container{
+  background-color:#f1f1f1;
+  padding: 20px 20px;
+ }
+
+
 .address-container{
   padding-left: 35px;
 }
@@ -97,4 +104,14 @@
       width: 250px;
       height: 250px;
   }
+}
+
+#tnc-img{
+  background-image: url(https://ongrid.in/images/home/feedback.png);
+  background-size:cover;
+}
+
+a{
+  text-decoration: none;
+  color:#34d0d0;
 }
